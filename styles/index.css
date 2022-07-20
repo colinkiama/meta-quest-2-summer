@@ -59,6 +59,10 @@ section {
   /* margin-top: 12px; */
 }
 
+.header-bar a {
+  display: inline-block;
+}
+
 section > img {
   position: absolute;
   bottom: 0;

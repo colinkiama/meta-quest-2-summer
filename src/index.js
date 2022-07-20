@@ -12,7 +12,6 @@ const HeaderState = {
 };
 
 document.addEventListener("scroll", (evnt) => {
-  console.log("Scroll");
   if (!isHandlingScrollEvent) {
     window.requestAnimationFrame(() => {
       let nextState = determineNextHeaderState();
